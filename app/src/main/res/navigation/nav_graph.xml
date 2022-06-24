@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.kotlin22.fragments.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" />
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.kotlin22.fragments.GameFragment"
+        android:label="fragment_levels"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/levelChooseFragment"
+        android:name="com.example.kotlin22.fragments.LevelChooseFragment"
+        android:label="fragment_level_choose"
+        tools:layout="@layout/fragment_level_choose" />
+</navigation>
